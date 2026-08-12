@@ -1,34 +1,17 @@
-version: 1
+version: 1.1
 project:
   name: VWA-OS
-  mode: enterprise
   evidence_required: true
-
-design:
-  spacing_base_px: 4
-  max_content_width_px: 1280
-  radius_scale: restrained
-  typography:
-    heading_tracking: tight
-    body_line_height: 1.5
-    ui_line_height: 1.25
-
 visual:
   require_image_existence_check: true
-  require_responsive_check: true
-  require_console_check: true
-  preferred_breakpoints: [390, 768, 1024, 1280, 1440]
-
+  require_post_change_render_check: true
+  preferred_viewports: [390, 768, 1024, 1280, 1440]
 seo:
   require_title: true
   require_meta_description: true
   require_canonical: true
-  require_robots: true
   require_sitemap: true
-  require_structured_data_validation: true
-
-quality_gates:
+quality:
   block_on_broken_images: true
   block_on_build_failure: true
-  block_on_obvious_console_errors: true
-  block_on_missing_alt_for_content_images: true
+  block_on_unverified_visual_claims: true

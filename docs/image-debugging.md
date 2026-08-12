@@ -1,5 +1,2 @@
-# Image Debugging Playbook
-
-A missing image has multiple possible causes: wrong path, case mismatch, bundler import failure, server routing, MIME mismatch, CORS, CSP, unsupported format, zero-byte file, CSS clipping, lazy-loading behavior or an invalid source URL.
-
-Always inspect the browser Network panel and rendered element before changing code.
+# Image Debugging
+A missing image may be caused by path/case, import/build failure, server routing, MIME, CORS/CSP, unsupported format, zero-byte asset, CSS clipping or lazy loading. Inspect rendered element and Network before changing code.

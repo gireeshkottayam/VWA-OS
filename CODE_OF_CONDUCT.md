@@ -1,3 +1,3 @@
 # Code of Conduct
 
-Be respectful, constructive, inclusive, and professional.
+Be respectful, constructive, inclusive and professional.

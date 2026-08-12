@@ -1,3 +1,2 @@
 # SEO Release Gate
-
-Verify rendered title, description, canonical, robots, sitemap, headings, indexability, internal links, structured data and social metadata. Confirm no accidental noindex, staging canonical, broken sitemap URLs or blocked critical resources.
+Validate rendered metadata, canonical, robots, sitemap, headings, links, structured data, indexability and performance. Never promise rankings.

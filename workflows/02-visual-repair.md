@@ -1,5 +1,2 @@
 # Visual Repair
-
-Inspect → identify component → inspect CSS/layout/assets → implement minimal fix → render at target viewport → compare → test adjacent breakpoints → document.
-
-Never declare an image fixed solely because the source path looks correct; verify the rendered result.
+Baseline screenshot → inspect DOM/CSS/assets → fix root cause → re-render → compare → test adjacent breakpoints → validate console/network → record evidence.

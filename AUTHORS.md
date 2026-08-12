@@ -1,3 +1,3 @@
 # Authors
 
-- Gireesh Kottayam — project author and maintainer
+- Gireesh Kottayam — author and maintainer

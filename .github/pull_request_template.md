@@ -1,9 +1,6 @@
 ## Summary
-
 ## Evidence
-
 ## Validation
-
 - [ ] Build/tests
 - [ ] Visual
 - [ ] Responsive

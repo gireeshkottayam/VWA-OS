@@ -1,18 +1,9 @@
 {
   "name": "VWA-OS",
-  "version": "1.0.0",
-  "type": "visual-web-agent-operating-system",
-  "owner": "Gireesh Kottayam",
+  "version": "1.1.0",
+  "release": "Enterprise Visual Agent Upgrade",
+  "author": "Gireesh Kottayam",
   "repository": "https://github.com/gireeshkottayam/VWA-OS",
-  "principles": [
-    "evidence-first",
-    "reversible-changes",
-    "validation-before-ship",
-    "accessibility",
-    "responsive-design",
-    "seo",
-    "performance",
-    "security"
-  ],
+  "agent_count": 48,
   "git_metadata_included": false
 }

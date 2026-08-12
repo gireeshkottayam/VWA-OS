@@ -1,10 +1,8 @@
-# OS/editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Secrets
+node_modules/
+dist/
+build/
+.next/
+coverage/
 .env
 .env.*
 !.env.example
@@ -13,16 +11,8 @@ Thumbs.db
 *.p12
 credentials.json
 secrets.json
-
-# Build/cache
-node_modules/
-dist/
-build/
-.next/
-.nuxt/
-coverage/
-.cache/
-.tmp/
-
-# Logs
 *.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
