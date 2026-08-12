@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "VWA-OS"
+version: "1.0.0"
+authors:
+  - family-names: "Kottayam"
+    given-names: "Gireesh"
+license: "MIT"
+repository-code: "https://github.com/gireeshkottayam/VWA-OS"

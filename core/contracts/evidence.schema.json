@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VWA Evidence Record",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "check",
+    "status"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "check": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pass",
+        "fail",
+        "warning",
+        "not-run"
+      ]
+    },
+    "details": {
+      "type": "string"
+    },
+    "artifact": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+name: VWA-OS Structure
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required structure
+        shell: bash
+        run: bash scripts/verify-structure.sh

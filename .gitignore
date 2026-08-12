@@ -1,0 +1,28 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# Build/cache
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+.cache/
+.tmp/
+
+# Logs
+*.log

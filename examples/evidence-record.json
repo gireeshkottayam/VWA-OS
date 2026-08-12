@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-08-12T00:00:00Z",
+  "check": "example visual smoke test",
+  "status": "pass",
+  "details": "Example record only; replace with actual evidence.",
+  "artifact": "screenshots/home-desktop.png"
+}
