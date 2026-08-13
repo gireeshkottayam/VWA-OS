@@ -1,7 +1,21 @@
-version: 1.1
+version: 1.2
 routes:
-  visual: [visual/visual-truth-agent, visual/geometry-agent, visual/layout-diagnosis-agent, assets/image-intelligence-agent, browser/network-agent, quality/evidence-validator-agent]
-  missing_image: [assets/asset-recovery-agent, assets/media-validation-agent, browser/network-agent, visual/visual-truth-agent, quality/evidence-validator-agent]
-  design: [design/design-director-agent, design/design-system-agent, design/typography-agent, design/ui-consistency-agent]
-  seo: [seo/crawlability-agent, seo/indexability-agent, seo/metadata-agent, seo/canonical-agent, seo/sitemap-agent, seo/structured-data-agent, seo/internal-linking-agent]
-  release: [quality/acceptance-agent, quality/regression-agent, security/security-agent, performance/performance-agent, release/release-gate-agent]
+  documents:
+    agents:
+      - document/document-orchestrator-agent
+      - document/requirements-document-agent
+      - document/technical-documentation-agent
+      - document/proposal-agent
+      - document/report-agent
+      - document/brand-document-agent
+      - document/document-fact-check-agent
+      - document/document-accessibility-agent
+      - document/pdf-validation-agent
+      - document/office-document-agent
+      - document/document-versioning-agent
+  visual:
+    agents: [visual/visual-truth-agent, visual/geometry-agent, assets/image-intelligence-agent, browser/network-agent, quality/evidence-validator-agent]
+  seo:
+    agents: [seo/crawlability-agent, seo/indexability-agent, seo/metadata-agent, seo/canonical-agent, seo/sitemap-agent, seo/structured-data-agent, seo/internal-linking-agent]
+  release:
+    agents: [quality/acceptance-agent, quality/regression-agent, security/security-agent, performance/performance-agent, release/release-gate-agent]

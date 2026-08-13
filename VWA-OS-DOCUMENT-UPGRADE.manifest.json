@@ -1,0 +1,8 @@
+{
+  "upgrade": "VWA-OS v1.2.0 Document Automation",
+  "repository": "https://github.com/gireeshkottayam/VWA-OS",
+  "new_document_agents": 11,
+  "new_workflows": 2,
+  "new_templates": 4,
+  "git_metadata_included": false
+}
