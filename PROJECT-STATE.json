@@ -1,0 +1,22 @@
+{
+  "project": "VWA-OS",
+  "release": "1.2.1",
+  "status": "INTEGRATION",
+  "active_task": "Integrate VWA-OS into Antigravity and OpenCode",
+  "completed": [
+    "visual agent architecture",
+    "asset recovery architecture",
+    "document automation",
+    "resume and TODO continuity",
+    "strict no-overwrite agent governance"
+  ],
+  "next_actions": [
+    "Review ANTIGRAVITY-INTEGRATION.md",
+    "Review OPENCODE-INTEGRATION.md",
+    "Copy instruction files into target project using extension/non-destructive method",
+    "Run visual and document smoke tests",
+    "Record evidence"
+  ],
+  "agent_modification_policy": "core/AGENT-MODIFICATION-POLICY.md",
+  "last_updated": "2026-08-13"
+}

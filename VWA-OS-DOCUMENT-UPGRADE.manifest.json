@@ -1,8 +1,11 @@
 {
-  "upgrade": "VWA-OS v1.2.0 Document Automation",
+  "upgrade": "VWA-OS v1.2.1 Resume/TODO/Agent Governance",
   "repository": "https://github.com/gireeshkottayam/VWA-OS",
   "new_document_agents": 11,
   "new_workflows": 2,
   "new_templates": 4,
-  "git_metadata_included": false
+  "git_metadata_included": false,
+  "new_resume_agents": 4,
+  "new_integration_guides": 4,
+  "strict_no_overwrite": true
 }
