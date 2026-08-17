@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VWA-OS Admin App Blueprint",
+  "type": "object",
+  "required": ["screens"],
+  "properties": {
+    "platform": {"type": "string"},
+    "target": {"type": "string"},
+    "screens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "route", "permission"],
+        "properties": {
+          "name": {"type": "string"},
+          "route": {"type": "string"},
+          "permission": {"type": "string"},
+          "api": {"type": "string"},
+          "data_model": {"type": "string"},
+          "public_effect": {"type": "string"},
+          "status": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VWA-OS Platform Wiring Record",
+  "type": "object",
+  "required": ["source", "target", "status"],
+  "properties": {
+    "source": {"type": "string"},
+    "target": {"type": "string"},
+    "protocol": {"type": "string"},
+    "contract": {"type": "string"},
+    "status": {"type": "string", "enum": ["VERIFIED", "PARTIAL", "UNVERIFIED", "BROKEN", "BLOCKED"]},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"},
+    "rollback": {"type": "string"}
+  }
+}
