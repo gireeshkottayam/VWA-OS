@@ -1,0 +1,33 @@
+{
+  "name": "VWA-OS",
+  "version": "1.6.0",
+  "release": "Universal Software Engineering Intelligence",
+  "agent": "universal-software-engineering-agent",
+  "hosts": ["Antigravity", "OpenCode"],
+  "platforms": ["Windows", "macOS"],
+  "mode": "orchestrator",
+  "technology_policy": "technology-neutral",
+  "no_overwrite": true,
+  "capabilities": [
+    "project-discovery",
+    "language-detection",
+    "toolchain-detection",
+    "software-development",
+    "software-modification",
+    "bug-fixing",
+    "feature-development",
+    "testing",
+    "debugging",
+    "refactoring",
+    "dependency-management",
+    "code-review",
+    "security-review",
+    "performance-review",
+    "packaging",
+    "release-engineering",
+    "documentation",
+    "cross-platform-engineering",
+    "specialist-agent-orchestration",
+    "evidence-based-verification"
+  ]
+}
