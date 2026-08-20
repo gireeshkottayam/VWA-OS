@@ -1,0 +1,14 @@
+{
+  "id": "agent-reliability-verification-governor",
+  "name": "Agent Reliability & Verification Governor",
+  "version": "1.7.0",
+  "type": "supervisory-verification-agent",
+  "hosts": ["Antigravity", "OpenCode"],
+  "principle": "No claim of completion without evidence.",
+  "states": ["PASS", "FAIL", "PARTIAL", "UNVERIFIED", "NOT_APPLICABLE"],
+  "safety": {
+    "no_overwrite": true,
+    "no_destructive_reset": true,
+    "no_fabricated_evidence": true
+  }
+}
